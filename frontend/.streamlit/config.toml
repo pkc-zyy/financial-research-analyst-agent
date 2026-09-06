@@ -1,0 +1,25 @@
+[theme]
+# Modern Professional AI Theme
+primaryColor = "#6366f1"
+backgroundColor = "#09090b"
+secondaryBackgroundColor = "#131316"
+textColor = "#fafafa"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[runner]
+magicEnabled = true
+fastReruns = true
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
